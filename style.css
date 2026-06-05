@@ -1,0 +1,35 @@
+body {
+  background: linear-gradient(black, #0f0f0f);
+  color: cyan;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 50px;
+}
+
+button {
+  background: #00ffff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #ff00ff;
+  color: white;
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+  button {
+    width: 100%;
+  }
+}
